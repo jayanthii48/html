@@ -1,0 +1,54 @@
+<audio> Tag Attribute Values
+Attribute	Possible Values
+
+
+src	        Path or URL of the audio file. Example: audio/example.mp3.
+controls	Boolean attribute; no value needed. When present, it displays play, pause, and volume controls.
+autoplay	Boolean attribute; no value needed. When present, the audio starts playing automatically.
+loop	    Boolean attribute; no value needed. When present, the audio will replay after it finishes.
+muted	    Boolean attribute; no value needed. When present, the audio starts muted.
+preload	    - auto: The entire audio file should be loaded when the page loads.
+            - metadata: Only metadata (e.g., duration, file size) should be loaded.
+            - none: Audio should not be preloaded.
+
+
+
+
+2. <video> Tag Attribute Values
+Attribute	Possible Values
+src	        Path or URL of the video file. Example: video/example.mp4.
+controls	Boolean attribute; no value needed. When present, it displays play, pause, and volume controls.
+autoplay	Boolean attribute; no value needed. When present, the video starts playing automatically.
+loop	    Boolean attribute; no value needed. When present, the video will replay after it finishes.
+muted	    Boolean attribute; no value needed. When present, the video starts muted.
+poster	    URL of an image to display before the video starts playing. Example: images/poster.jpg.
+width	    Specifies the width of the video player in pixels or percentage. Example: 640, 100%.
+height	    Specifies the height of the video player in pixels or percentage. Example: 360, 100%.
+preload	    - auto: The entire video file should be loaded when the page loads.
+            - metadata: Only metadata (e.g., duration, dimensions) should be loaded.
+            - none: Video should not be preloaded.
+
+
+3. <iframe> Tag Attribute Values
+Attribute	    Possible Values
+src	            URL of the content to embed. Example: https://www.example.com.
+width	        Width of the <iframe> in pixels or percentage. Example: 600, 100%.
+height	        Height of the <iframe> in pixels or percentage. Example: 400, 100%.
+frameborder	Deprecated in HTML5. Possible values: 0 (no border), 1 (display border).
+allow	        Specifies permissions for embedded content. Example values:
+                - autoplay: Allows autoplaying media.
+                - fullscreen: Allows fullscreen mode.
+                - geolocation: Allows access to geolocation.
+                - microphone: Allows microphone access.
+                - camera: Allows camera access.
+allowfullscreen	   Boolean attribute; no value needed. Allows embedded content to go fullscreen.
+loading	- lazy:     Loads content only when it is visible in the viewport.
+        - eager:    Loads content immediately.
+referrerpolicy	    Values control how much referrer data is shared:
+                    - no-referrer, origin, strict-origin, unsafe-url, origin-when-cross-origin.
+name	        A name for the <iframe>. Used for referencing it in JavaScript or linking forms. Example: myFrame.
+sandbox	        Restricts embedded content. Example values:
+                - allow-forms: Allows form submissions.
+                - allow-same-origin: Allows the same-origin policy.
+                - allow-scripts: Allows running JavaScript.
+                - allow-popups: Allows popups.

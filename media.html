@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Media</title>
+</head>
+<body>
+    <h1>We will add audio here</h1>
+    <!-- Audio Element -->
+    <audio src="./media/bgm.mp3" controls loop muted></audio>
+    
+    <h2>Here we will add video</h2>
+    <!-- Video Element -->
+    <video 
+        src="./media/friends_video.mp4" 
+        controls 
+        height="200" 
+        width="300"
+        poster="https://preview.redd.it/bahubali-appreciation-post-v0-59jqk7sjj87d1.jpeg?auto=webp&s=f71a57cc07fc363017e9b7a568cf0a39794e4667">
+    </video>
+    
+    <h1>Adding another webpage to my webpage</h1>
+    <!-- Embedded Webpage -->
+    <iframe src="./anchor.html" frameborder="1" height="400" width="600"></iframe>
+    
+    <!-- Google Maps Embed -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.890248550508!2d78.68274777457549!3d10.819710358394824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d44061cfe4ad1f3%3A0x756d84855c173b62!2sDeyO%20Infotech!5e0!3m2!1sen!2sin!4v1733120210104!5m2!1sen!2sin"
+     width="600" 
+     height="450" 
+     style="border:0;" 
+     allowfullscreen="" 
+     loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250808.99205376607!2d78.46975050372153!3d10.819691058254008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d44061cfe4ad1f3%3A0x756d84855c173b62!2sDeyO%20Infotech!5e0!3m2!1sen!2sin!4v1733219781811!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h1>Adding YouTube video to my webpage</h1>
+    <!-- YouTube Video Embed -->
+    <iframe 
+        width="560" 
+        height="315"
+        src="https://www.youtube.com/embed/EXeTwQWrcwY?si=IEuXi6yF9BoDbzDQ" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Preload Example</title>
+</head>
+<body>
+    <h1>Video with Preload Attribute</h1>
+
+    <!-- Preload: auto -->
+    <h2>Preload = "auto"</h2>
+    <video src="./media/friends_video.mp4" controls preload="auto" width="320" height="240">
+        Your browser does not support the video tag.
+    </video>
+    <p>The browser will load the entire video.</p>
+
+    <!-- Preload: metadata -->
+    <h2>Preload = "metadata"</h2>
+    <video src="./media/friends_video.mp4" controls preload="metadata" width="320" height="240">
+        Your browser does not support the video tag.
+    </video>
+    <p>The browser will only load the video metadata.</p>
+
+    <!-- Preload: none -->
+    <h2>Preload = "none"</h2>
+    <video src="./media/friends_video.mp4" controls preload="none" width="320" height="240">
+        Your browser does not support the video tag.
+    </video>
+    <p>The browser will not preload anything until the user initiates playback.</p>
+</body>
+</html>
+
+</body>
+</html>
