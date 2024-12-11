@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Form</title>
+</head>
+<body>
+<h1>Form</h1>
+<form action="" autocomplete="off" method="">
+<fieldset>
+<legend>User Info</legend>
+<label for="uname">Name</label>
+<input
+type="text"
+id="uname"
+placeholder="enter your name"
+name=""
+required
+maxlength="6"
+/>
+<br /><br />
+<label for="uemail">Email</label>
+<input
+type="email"
+name="email"
+id="uemail"
+placeholder="enter your email"
+/>
+<br /><br />
+<label for="upass">Password</label>
+<input
+type="password"
+name="pass"
+id="upass"
+placeholder="enter password"
+minlength="6"
+/>
+<br /><br />
+</fieldset>
+<fieldset>
+<legend>Personal Info</legend>
+<label for="uage">Age</label>
+<input type="number" name="" id="uage" /> <br /><br />
+<label for="phno">Ph no</label>
+<input type="tel" name="" id="phno" /> <br><br>
+<label for="address">Address</label> <br><br>
+<textarea name="" id="address" rows="10" cols="20"></textarea>
+</fieldset>
+<fieldset>
+<legend>Timing</legend>
+<label for="date">Date</label>
+<input type="date" name="" id="date" /> <br /><br />
+<label for="time">Time</label>
+<input type="time" name="" id="time" /> <br /><br />
+<label for="week">Week</label>
+<input type="week" name="" id="week" /> <br /><br />
+<label for="month">Month</label>
+<input type="month" name="" id="month" /> <br /><br />
+</fieldset>
+<fieldset>
+<legend>CheckBox-RadioButton</legend>
+<label for="">Subject</label> <br /><br />
+<input type="checkbox" name="" id="html" value="html" />
+<label for="html">HTML</label>
+<input type="checkbox" name="" id="css" value="css" />
+<label for="css">CSS</label>
+<input type="checkbox" name="" id="js" value="js" />
+<label for="js"> JavaScript</label>
+<br /><br />
+<label for="">Gender</label> <br /><br />
+<input type="radio" name="gender" id="" value="male" /> Male
+<br /><br />
+<input type="radio" name="gender" id="" value="female" /> Female
+<br /><br />
+<input type="radio" name="gender" id="" value="others" /> Others
+<br /><br />
+</fieldset>
+<fieldset>
+<legend>Select options</legend>
+<label for="">Select Subject</label> <br /><br />
+<select name="subject" id="">
+<optgroup label="Frontend">
+<option value="HTML">html</option>
+<option value="CSS">css</option>
+<option value="JS">javascript</option>
+</optgroup>
+<optgroup label="backend">
+<option value="java">java</option>
+<option value="python">python</option>
+<option value="c">c</option>
+</optgroup>
+</select>
+</fieldset>
+<fieldset>
+<legend>buttons</legend>
+<label for="num">select number</label>
+<input type="range" name="number" id="num" min="10" max="20" />
+<br /><br />
+<input type="submit" value="sign up" />
+<input type="reset" value="reset" />
+</fieldset>
+</form>
+</body>
+
